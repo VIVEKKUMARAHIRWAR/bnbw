@@ -43,7 +43,7 @@ const Contact = () => {
       `Name: ${formData.name}\nEmail: ${formData.email}\nInstitution: ${formData.institution || 'N/A'}\n\nMessage:\n${formData.message}`
     );
 
-    window.location.href = `mailto:backpacksandblueprints@gmail.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:contact@backpacksandblueprints.com?subject=${subject}&body=${body}`;
 
     toast.success("Message prepared! Your email client should open.");
 
@@ -69,8 +69,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "backpacksandblueprints@gmail.com",
-      href: "mailto:backpacksandblueprints@gmail.com"
+      value: "contact@backpacksandblueprints.com",
+      href: "mailto:contact@backpacksandblueprints.com"
     }
   ];
 

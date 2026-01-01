@@ -21,7 +21,7 @@ export const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Mail, label: "Email", href: "mailto:backpacksandblueprints@gmail.com" },
+    { icon: Mail, label: "Email", href: "mailto:contact@backpacksandblueprints.com" },
     { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/company/b-n-b" },
     { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/backpacksandblueprints/" },
     { icon: Youtube, label: "YouTube", href: "https://www.youtube.com/@backpacksandblueprints" },
